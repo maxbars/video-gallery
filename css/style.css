@@ -1,4 +1,4 @@
-/* Обнуление */
+/* Reset styles start */
 *,
 *::before,
 *::after {
@@ -44,11 +44,9 @@ h1 {
 .wrapper {
 	min-height: 100vh;
 	display: flex;
-	flex-direction: column;
-
-	 
+	flex-direction: column;	 
 }
-/* ------------------ */
+/* ---------Reset styles end--------- */
 .items {
 	padding: 50px 0;
 }
@@ -62,7 +60,6 @@ h1 {
 	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 	gap: 20px;
 }
-.item {}
 .item__video {
 	position: relative;
 	margin: 0 0 15px 0;
